@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def home
-    puts "Honey, I'm home!"
+    @greeting = "Hello world!"
   end
 end
